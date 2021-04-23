@@ -45,20 +45,20 @@ session_start();
     <form class="crudform" style="margin-top: 20px;" method="post">
         <!-- Name input -->
         <div class="form-outline mb-4">
-            <input type="text" id="form1Example1" class="form-control" name="name"/>
             <label class="form-label" for="form1Example1">Full Name</label>
+            <input type="text" id="form1Example1" class="form-control" name="name"/>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
-            <input type="email" id="form1Example1" class="form-control" name="email"/>
             <label class="form-label" for="form1Example1">Email address</label>
+            <input type="email" id="form1Example1" class="form-control" name="email"/>
         </div>
 
         <!-- Password input -->
         <div class="form-outline mb-4">
-            <input type="password" id="form1Example2" class="form-control" name="password"/>
             <label class="form-label" for="form1Example2">Password</label>
+            <input type="password" id="form1Example2" class="form-control" name="password"/>
         </div>
 
         <!-- Submit button -->
