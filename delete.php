@@ -20,7 +20,7 @@ if(!isset($_GET['user_id'])){
 $stmt = $pdo->prepare("SELECT name, user_id FROM users WHERE user_id=:xyz");
 $stmt->execute(array(":xyz" => $_GET['user_id']));
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
-if($row == false){
+if($row === false){
     $_SESSION['error'] = 'Bad value for user_id';
     header('Location: index.php');
     return;
